@@ -9,7 +9,6 @@ const Navbar = () => {
     return (
         <nav className="navigation">
 
-            <div className="navigation_container">
                 <p>SHPX</p>
                 <ul className="navigation_links">
                     <li>Home</li>
@@ -25,7 +24,6 @@ const Navbar = () => {
                         <img src={Tray} alt="tray-icon"  />
                     </span>
                 </div>
-            </div>
         </nav>
     )
 }
