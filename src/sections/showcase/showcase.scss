@@ -31,5 +31,9 @@
         width: 9.5rem;
         display: flex;
         justify-content: space-between;
+
+        span {
+            cursor: pointer;
+        }
     }
 }

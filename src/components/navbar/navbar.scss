@@ -32,6 +32,7 @@
         li {
             list-style-type: none;
             font-weight: 600;
+            cursor: pointer;
         }
 
         li:not(:last-of-type) {
@@ -47,6 +48,10 @@
             color: inherit;
 
         }
+    }
+
+    span {
+        cursor: pointer;
     }
 
     span:not(:last-of-type) {
