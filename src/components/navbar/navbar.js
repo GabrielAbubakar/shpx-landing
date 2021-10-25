@@ -2,6 +2,7 @@ import React from "react";
 import './navbar.scss';
 import Search from "../../assets/search-icon.svg"
 import Tray from "../../assets/tray-icon.svg"
+import Hamburger from "../../assets/hamburger.svg"
 
 
 const Navbar = () => {
@@ -23,6 +24,9 @@ const Navbar = () => {
                     <span>
                         <img src={Tray} alt="tray-icon"  />
                     </span>
+                </div>
+                <div className="hamburger">
+                    <img src={Hamburger} alt="hamburger-icon" />
                 </div>
         </nav>
     )

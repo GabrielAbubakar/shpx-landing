@@ -19,7 +19,7 @@ const MainSection = () => {
                     </p>
                 </div>
                 <figure>
-                    <img src={Hero} alt="hero-image" />
+                    <img src={Hero} alt="hero" />
                 </figure>
 
             </div>
