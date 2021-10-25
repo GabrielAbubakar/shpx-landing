@@ -1,0 +1,30 @@
+.quotation {
+    background-color: #FAF4EF;
+    margin-bottom: 7rem;
+    padding: 4rem 0 3.8rem 5rem;
+    border-radius: 0 5rem 0 0;
+
+    h1 {
+        font-size: 2.9rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .button {
+        display: flex;
+
+        &_quote {
+            background-color: #4B4B4B;
+            color: #ffffff;
+            padding: .8rem 2rem;
+            margin-right: 1rem;
+            cursor: pointer;
+        }
+
+        &_sales {
+            background-color: #ffffff;
+            color: #4B4B4B;
+            padding: .8rem 2rem;
+            cursor: pointer;
+        }
+    }
+}
