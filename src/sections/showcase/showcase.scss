@@ -1,6 +1,12 @@
+@import '../../sass/mixins';
+
 .showcase {
     display: flex;
     margin-bottom: 9rem;
+
+    @include respond(tab-port) {
+        flex-direction: column;
+    }
 
     figure {
         height: 40rem;
@@ -8,6 +14,12 @@
         margin-right: 3rem;
         flex: 1.8;
         border-radius: 0 0 0 5rem;
+
+        @include respond(tab-port) {
+            margin-right: 0;
+        // transform: translateX(3.8rem);
+            margin-bottom: 2rem;
+        }
 
         img {
             object-fit: cover;
@@ -26,6 +38,10 @@
     h1 {
         font-size: 2.9rem;
         margin-bottom: 3rem;
+
+        @include respond(tab-port) {
+            margin-bottom: 2rem;
+        }
     }
 
     p {
