@@ -1,5 +1,7 @@
 @import './sass/variables';
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *,
 *::after,
@@ -23,6 +25,11 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--color-text);
     font-weight: 400;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .container {
