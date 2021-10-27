@@ -1,16 +1,32 @@
+@import '../../sass/mixins';
+
+
 .quotation {
     background-color: #FAF4EF;
     margin-bottom: 7rem;
-    padding: 4rem 0 3.8rem 5rem;
+    padding: 4rem 0 4rem 5rem;
     border-radius: 0 5rem 0 0;
+
+    @include respond(tab-port) {
+        padding: 2rem 0 4rem 3rem;
+    }
+
+    @include respond(tab-port) {
+        padding: 1.6rem 0 4rem 2rem;
+    }
 
     h1 {
         font-size: 2.9rem;
         margin-bottom: 1.2rem;
+
+        @include respond(tab-port) {
+            font-size: 2rem;
+        }
     }
     
     .button {
         display: flex;
+
 
         &_quote {
             background-color: #4B4B4B;

@@ -6,7 +6,11 @@ const Tabs = () => {
 
     return (
         <div className="tabs">
-            <button></button>
+            <button>All</button>
+            <button>Lamp</button>
+            <button>Chair</button>
+            <button>Table</button>
+            <button>Sofa</button>
         </div>
     )
 }
