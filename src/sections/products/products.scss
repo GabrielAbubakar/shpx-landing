@@ -1,8 +1,15 @@
 .products {
-    margin-bottom: 6rem;
+    margin-bottom: 15rem;
 
     h1 {
         font-size: 2.9rem;
         margin-bottom: 1.6rem;
+    }
+
+    &_items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        //flex-direction: column;
     }
 }
