@@ -1,10 +1,10 @@
 import React from "react";
 import './productCard.scss';
-import Molle from '../../assets/molle.png'
 
 
 const ProductCard = (props) => {
     return(
+        
         // <div className="product_card">
         //     <h2>Chaise Molle</h2>
         //     <h3>S18.00</h3>
@@ -13,7 +13,8 @@ const ProductCard = (props) => {
         //         <img src={Molle} alt="molle" />
         //     </figure>
         // </div>
-        <div className="product_card" key={props.key}>
+
+        <div className="product_card" key={props.id}>
             <h2>{props.title}</h2>
             <h3>{props.price}</h3>
 

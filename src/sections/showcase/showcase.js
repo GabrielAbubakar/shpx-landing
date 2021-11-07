@@ -13,7 +13,7 @@ const Showcase = () => {
             <div className="content">
                 <h1>Showcase</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. A, eleifend viverra nam libero tellus. Luctus ornare ac, dolor tempor pellentesque nec. 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sic Mundus Creatus Est. As et mundus, eleifend viverra nam libero tellus. Luctus ornare ac, dolor tempor pellentesque nec. 
                 </p>
                 <div className="icons">
                     <span>

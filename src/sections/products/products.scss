@@ -12,6 +12,25 @@
         justify-content: space-between;
         //flex-direction: column;
     }
+
+    .tabs {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+    
+        input[type=button] {
+            cursor: pointer;
+            margin-right: 2rem;
+            font-size: 1.1rem;
+            background-color: #fff;
+            border: none;
+            color: #a5a5a5;
+        }
+    
+        // input[type=button]:first-of-type {
+        //     color: #4b4b4b;
+        // }
+    }
 }
 
 // .product_card {
