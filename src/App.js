@@ -10,14 +10,22 @@ const App = () => {
 
     return (
 
-        <div className="App">
-            <MainSection />
-            <Products />
-            
-            
-            <Showcase />
-            <Quotation />
+        <div className="App-container">
+            <div className="App">
+                <MainSection />
+                <Products />
+                
+                
+                <Showcase />
+                <Quotation />
 
+
+            </div>
+            <div className="mobile">
+                    <p>
+                        This site is inactive on <b>mobile</b>. Please switch to a <b>desktop</b> to view.
+                    </p>
+            </div>
         </div>
     )
 }
