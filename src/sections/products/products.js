@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import ProductCard from "../../components/productCard/productCard";
 //import Tabs from "../../components/tabs/tabs";
 import './products.scss';
@@ -9,12 +10,11 @@ import Comfort from '../../assets/comfort-chair.png';
 import Lamp from '../../assets/lamp.png';
 import Sofa from '../../assets/sofa.png';
 import Molle from '../../assets/molle.png';
-import { useState } from "react";
 
 
 const Products = () => {
 
-    
+    //Data
     const data = [
 
         {
@@ -26,35 +26,35 @@ const Products = () => {
         },
         {
             id: 2,
-            title: 'Chaise Molle',
+            title: 'Chaise Dolle',
             price: 20.00,
             image: Comfort,
             type: "chair"
         },
         {
             id: 3,
-            title: 'Chaise Molle',
+            title: 'Chaise Folle',
             price: 20.00,
             image: Lamp,
             type: "lamp"
         },
         {
             id: 4,
-            title: 'Chaise Molle',
+            title: 'Chaise Bolle',
             price: 20.00,
             image: Sofa,
             type: "sofa"
         },
         {
             id: 5,
-            title: 'Chaise Molle',
+            title: 'Chaise Solle',
             price: 20.00,
             image: Desk,
             type: "table"
         },
         {
             id: 6,
-            title: 'Chaise Molle',
+            title: 'Chaise Polle',
             price: 20.00,
             image: Chair,
             type: "chair"

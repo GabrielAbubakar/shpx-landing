@@ -26,6 +26,10 @@
             border: none;
             color: #a5a5a5;
         }
+
+        input[type=button]:hover {
+            color: #4b4b4b;
+        }
     
         // input[type=button]:first-of-type {
         //     color: #4b4b4b;
